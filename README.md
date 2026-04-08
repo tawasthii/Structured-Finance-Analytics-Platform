@@ -126,7 +126,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ## 📁 Project Structure
 Project Fixed Income/
-│
+
 ├── utils/ # Core modules (curves, cashflows, OAS, etc.)
 ├── 01_Curve_Construction.ipynb
 ├── 02_MBS_Cashflows.ipynb
