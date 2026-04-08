@@ -6,7 +6,7 @@ This project replicates the architecture used in institutional systems like Bloo
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This platform builds a complete computational pipeline for pricing and risk analysis of mortgage-backed securities (MBS) and structured products:
 
@@ -16,9 +16,9 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
-### 🔹 Yield Curve Construction
+### Yield Curve Construction
 - Bootstrapped Treasury & Swap curves
 - Monotone convex interpolation (industry standard)
 - Forward rate extraction
@@ -26,7 +26,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-### 🔹 MBS Cash Flow Engine
+### MBS Cash Flow Engine
 - Monthly cash flow projection:
   - Scheduled interest & principal
   - Prepayments (CPR/SMM/PSA)
@@ -35,7 +35,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-### 🔹 Multi-Factor Prepayment Model
+### Multi-Factor Prepayment Model
 - 4-component framework:
   - Refinancing (S-curve)
   - Turnover
@@ -45,7 +45,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-### 🔹 CMO Structuring
+### CMO Structuring
 - Sequential tranches with Z-bonds
 - PAC / Companion tranche design
 - IO/PO stripping with duration behavior:
@@ -54,14 +54,14 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-### 🔹 Volatility Modeling
+### Volatility Modeling
 - Black-76 & Bachelier frameworks
 - SABR volatility surface calibration
 - Excellent fit: RMSE ≈ 0.048%
 
 ---
 
-### 🔹 Monte Carlo Rate Simulation
+### Monte Carlo Rate Simulation
 - 3-factor Hull-White model:
   - Level, slope, curvature factors
 - Variance reduction:
@@ -71,7 +71,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-### 🔹 OAS & Risk Analytics (Core)
+### OAS & Risk Analytics (Core)
 - Full Monte Carlo OAS calculation
 - Spread decomposition:
   - OAS
@@ -86,7 +86,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-### 🔹 Scenario Analysis & Hedging
+### Scenario Analysis & Hedging
 - Rate shock scenarios (±100bp, ±200bp)
 - Volatility & prepayment sensitivity
 - Treasury-based DV01 hedging
@@ -97,7 +97,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-### 🔹 Portfolio Analytics
+### Portfolio Analytics
 - $20M multi-security MBS portfolio
 - Risk metrics:
   - DV01: ~$9,384
@@ -106,7 +106,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 - MBS exhibit **negative convexity** → upside capped, downside amplified  
 - Majority of rate exposure lies around **10Y tenor (~60%)**  
@@ -115,7 +115,7 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python (NumPy, Pandas, SciPy)
 - Monte Carlo Simulation
