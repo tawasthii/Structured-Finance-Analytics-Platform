@@ -123,3 +123,10 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 - Quantitative Risk Analytics
 
 ---
+
+## Author
+
+**Tapesh Awasthi**  
+MS Quantitative Finance, Fordham University  
+[LinkedIn](https://www.linkedin.com/in/tapeshawasthi/)  
+[Email](mailto:ta61@fordham.edu)
