@@ -123,17 +123,3 @@ The key insight: **OAS is not standalone — it requires every upstream module t
 - Quantitative Risk Analytics
 
 ---
-
-## 📁 Project Structure
-Project Fixed Income/
-
-├── utils/ # Core modules (curves, cashflows, OAS, etc.)
-├── 01_Curve_Construction.ipynb
-├── 02_MBS_Cashflows.ipynb
-├── 03_Prepayment_Model.ipynb
-├── 04_CMO_Structuring.ipynb
-├── 05_Volatility_Surface.ipynb
-├── 06_Monte_Carlo.ipynb
-├── 07_OAS_Analysis.ipynb
-├── 08_Scenario_Hedging.ipynb
-├── 09_Portfolio_Analytics.ipynb
